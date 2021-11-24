@@ -26,7 +26,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
           continue;
         }
 
-        const replaceValue = item.to;
+        let replaceValue = item.to;
         if(replaceValue === undefined || replaceValue === null) {
           continue;
         }
